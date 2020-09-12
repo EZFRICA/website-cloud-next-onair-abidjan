@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cloud-next-onair-abidjan.web.app/sitemap.xml
