@@ -7,7 +7,7 @@
   "dir": "auto",
   "related_applications": [{
     "platform": "webapp",
-    "url": "https://cloud-next-onair-abidjan.web.app/manifest.webmanifest"
+    "url": "https://cloudnextabidjan-xoqsda64ya-uc.a.run.app/manifest.webmanifest"
   }],
   "prefer_related_applications": true,
   "categories": [
