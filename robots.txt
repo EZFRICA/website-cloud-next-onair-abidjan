@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cloud-next-onair-abidjan.web.app/sitemap.xml
+Sitemap: https://cloudnextabidjan-xoqsda64ya-uc.a.run.app/sitemap.xml
