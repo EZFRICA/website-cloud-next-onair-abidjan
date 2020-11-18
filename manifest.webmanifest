@@ -7,7 +7,7 @@
   "dir": "auto",
   "related_applications": [{
     "platform": "webapp",
-    "url": "https://cloudnextabidjan-xoqsda64ya-uc.a.run.app/manifest.webmanifest"
+    "url": "https://cloud-next-onair-abidjan.web.app/manifest.webmanifest"
   }],
   "prefer_related_applications": true,
   "categories": [
@@ -16,282 +16,282 @@
   "screenshots": [
     {
       "sizes": "512x512",
-      "src": "img/pwa/maskable_icon.png",
+      "src": "static/img/pwa/maskable_icon.png",
       "type": "image/png",
       "purpose": "maskable"
     }
   ],
   "icons": [
     {
-      "src": "img/favicon/app_images/windows10/Square71x71Logo.scale-400.png",
+      "src": "static/img/favicon/app_images/windows10/Square71x71Logo.scale-400.png",
       "sizes": "284x284"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square71x71Logo.scale-200.png",
+      "src": "static/img/favicon/app_images/windows10/Square71x71Logo.scale-200.png",
       "sizes": "142x142"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square71x71Logo.scale-100.png",
+      "src": "static/img/favicon/app_images/windows10/Square71x71Logo.scale-100.png",
       "sizes": "71x71"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square71x71Logo.scale-150.png",
+      "src": "static/img/favicon/app_images/windows10/Square71x71Logo.scale-150.png",
       "sizes": "107x107"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square71x71Logo.scale-125.png",
+      "src": "static/img/favicon/app_images/windows10/Square71x71Logo.scale-125.png",
       "sizes": "89x89"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square150x150Logo.scale-400.png",
+      "src": "static/img/favicon/app_images/windows10/Square150x150Logo.scale-400.png",
       "sizes": "600x600"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square150x150Logo.scale-200.png",
+      "src": "static/img/favicon/app_images/windows10/Square150x150Logo.scale-200.png",
       "sizes": "300x300"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square150x150Logo.scale-100.png",
+      "src": "static/img/favicon/app_images/windows10/Square150x150Logo.scale-100.png",
       "sizes": "150x150"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square150x150Logo.scale-150.png",
+      "src": "static/img/favicon/app_images/windows10/Square150x150Logo.scale-150.png",
       "sizes": "225x225"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square150x150Logo.scale-125.png",
+      "src": "static/img/favicon/app_images/windows10/Square150x150Logo.scale-125.png",
       "sizes": "188x188"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square44x44Logo.scale-400.png",
+      "src": "static/img/favicon/app_images/windows10/Square44x44Logo.scale-400.png",
       "sizes": "176x176"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square44x44Logo.scale-200.png",
+      "src": "static/img/favicon/app_images/windows10/Square44x44Logo.scale-200.png",
       "sizes": "88x88"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square44x44Logo.scale-100.png",
+      "src": "static/img/favicon/app_images/windows10/Square44x44Logo.scale-100.png",
       "sizes": "44x44"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square44x44Logo.scale-150.png",
+      "src": "static/img/favicon/app_images/windows10/Square44x44Logo.scale-150.png",
       "sizes": "66x66"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square44x44Logo.scale-125.png",
+      "src": "static/img/favicon/app_images/windows10/Square44x44Logo.scale-125.png",
       "sizes": "55x55"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square44x44Logo.targetsize-256.png",
+      "src": "static/img/favicon/app_images/windows10/Square44x44Logo.targetsize-256.png",
       "sizes": "256x256"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square44x44Logo.targetsize-48.png",
+      "src": "static/img/favicon/app_images/windows10/Square44x44Logo.targetsize-48.png",
       "sizes": "48x48"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square44x44Logo.targetsize-24.png",
+      "src": "static/img/favicon/app_images/windows10/Square44x44Logo.targetsize-24.png",
       "sizes": "24x24"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square44x44Logo.targetsize-16.png",
+      "src": "static/img/favicon/app_images/windows10/Square44x44Logo.targetsize-16.png",
       "sizes": "16x16"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square44x44Logo.targetsize-256_altform-unplated.png",
+      "src": "static/img/favicon/app_images/windows10/Square44x44Logo.targetsize-256_altform-unplated.png",
       "sizes": "256x256"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square44x44Logo.targetsize-48_altform-unplated.png",
+      "src": "static/img/favicon/app_images/windows10/Square44x44Logo.targetsize-48_altform-unplated.png",
       "sizes": "48x48"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square44x44Logo.targetsize-24_altform-unplated.png",
+      "src": "static/img/favicon/app_images/windows10/Square44x44Logo.targetsize-24_altform-unplated.png",
       "sizes": "24x24"
     },
     {
-      "src": "img/favicon/app_images/windows10/Square44x44Logo.targetsize-16_altform-unplated.png",
+      "src": "static/img/favicon/app_images/windows10/Square44x44Logo.targetsize-16_altform-unplated.png",
       "sizes": "16x16"
     },
     {
-      "src": "img/favicon/app_images/windows10/StoreLogo.scale-400.png",
+      "src": "static/img/favicon/app_images/windows10/StoreLogo.scale-400.png",
       "sizes": "200x200"
     },
     {
-      "src": "img/favicon/app_images/windows10/StoreLogo.scale-200.png",
+      "src": "static/img/favicon/app_images/windows10/StoreLogo.scale-200.png",
       "sizes": "100x100"
     },
     {
-      "src": "img/favicon/app_images/windows10/StoreLogo.scale-150.png",
+      "src": "static/img/favicon/app_images/windows10/StoreLogo.scale-150.png",
       "sizes": "75x75"
     },
     {
-      "src": "img/favicon/app_images/windows10/StoreLogo.scale-125.png",
+      "src": "static/img/favicon/app_images/windows10/StoreLogo.scale-125.png",
       "sizes": "63x63"
     },
     {
-      "src": "img/favicon/app_images/windows10/StoreLogo.scale-100.png",
+      "src": "static/img/favicon/app_images/windows10/StoreLogo.scale-100.png",
       "sizes": "50x50"
     },
     {
-      "src": "img/favicon/app_images/windows10/StoreLogo.png",
+      "src": "static/img/favicon/app_images/windows10/StoreLogo.png",
       "sizes": "50x50"
     },
     {
-      "src": "img/favicon/app_images/windows/windows-squarelogo-270-270.png",
+      "src": "static/img/favicon/app_images/windows/windows-squarelogo-270-270.png",
       "sizes": "270x270"
     },
     {
-      "src": "img/favicon/app_images/windows/windows-squarelogo-210-210.png",
+      "src": "static/img/favicon/app_images/windows/windows-squarelogo-210-210.png",
       "sizes": "210x210"
     },
     {
-      "src": "img/favicon/app_images/windows/windows-squarelogo-150-150.png",
+      "src": "static/img/favicon/app_images/windows/windows-squarelogo-150-150.png",
       "sizes": "150x150"
     },
     {
-      "src": "img/favicon/app_images/windows/windows-squarelogo-120-120.png",
+      "src": "static/img/favicon/app_images/windows/windows-squarelogo-120-120.png",
       "sizes": "120x120"
     },
     {
-      "src": "img/favicon/app_images/windows/windows-storelogo-90-90.png",
+      "src": "static/img/favicon/app_images/windows/windows-storelogo-90-90.png",
       "sizes": "90x90"
     },
     {
-      "src": "img/favicon/app_images/windows/windows-storelogo-70-70.png",
+      "src": "static/img/favicon/app_images/windows/windows-storelogo-70-70.png",
       "sizes": "70x70"
     },
     {
-      "src": "img/favicon/app_images/windows/windows-storelogo-50-50.png",
+      "src": "static/img/favicon/app_images/windows/windows-storelogo-50-50.png",
       "sizes": "50x50"
     },
     {
-      "src": "img/favicon/app_images/windows/windowsphone-appicon-106-106.png",
+      "src": "static/img/favicon/app_images/windows/windowsphone-appicon-106-106.png",
       "sizes": "106x106"
     },
     {
-      "src": "img/favicon/app_images/windows/windowsphone-appicon-62-62.png",
+      "src": "static/img/favicon/app_images/windows/windowsphone-appicon-62-62.png",
       "sizes": "62x62"
     },
     {
-      "src": "img/favicon/app_images/windows/windowsphone-appicon-44-44.png",
+      "src": "static/img/favicon/app_images/windows/windowsphone-appicon-44-44.png",
       "sizes": "44x44"
     },
     {
-      "src": "img/favicon/app_images/windows/windowsphone-mediumtile-360-360.png",
+      "src": "static/img/favicon/app_images/windows/windowsphone-mediumtile-360-360.png",
       "sizes": "360x360"
     },
     {
-      "src": "img/favicon/app_images/windows/windowsphone-mediumtile-210-210.png",
+      "src": "static/img/favicon/app_images/windows/windowsphone-mediumtile-210-210.png",
       "sizes": "210x210"
     },
     {
-      "src": "img/favicon/app_images/windows/windowsphone-mediumtile-150-150.png",
+      "src": "static/img/favicon/app_images/windows/windowsphone-mediumtile-150-150.png",
       "sizes": "150x150"
     },
     {
-      "src": "img/favicon/app_images/windows/windowsphone-smalltile-170-170.png",
+      "src": "static/img/favicon/app_images/windows/windowsphone-smalltile-170-170.png",
       "sizes": "170x170"
     },
     {
-      "src": "img/favicon/app_images/windows/windowsphone-smalltile-99-99.png",
+      "src": "static/img/favicon/app_images/windows/windowsphone-smalltile-99-99.png",
       "sizes": "99x99"
     },
     {
-      "src": "img/favicon/app_images/windows/windowsphone-smalltile-71-71.png",
+      "src": "static/img/favicon/app_images/windows/windowsphone-smalltile-71-71.png",
       "sizes": "71x71"
     },
     {
-      "src": "img/favicon/app_images/windows/windowsphone-storelogo-120-120.png",
+      "src": "static/img/favicon/app_images/windows/windowsphone-storelogo-120-120.png",
       "sizes": "120x120"
     },
     {
-      "src": "img/favicon/app_images/windows/windowsphone-storelogo-70-70.png",
+      "src": "static/img/favicon/app_images/windows/windowsphone-storelogo-70-70.png",
       "sizes": "70x70"
     },
     {
-      "src": "img/favicon/app_images/windows/windowsphone-storelogo-50-50.png",
+      "src": "static/img/favicon/app_images/windows/windowsphone-storelogo-50-50.png",
       "sizes": "50x50"
     },
     {
-      "src": "img/favicon/app_images/msteams/msteams-192-192.png",
+      "src": "static/img/favicon/app_images/msteams/msteams-192-192.png",
       "sizes": "192x192"
     },
     {
-      "src": "img/favicon/app_images/msteams/msteams-silhouette-32-32.png",
+      "src": "static/img/favicon/app_images/msteams/msteams-silhouette-32-32.png",
       "sizes": "32x32"
     },
     {
-      "src": "img/favicon/app_images/android/android-launchericon-512-512.png",
+      "src": "static/img/favicon/app_images/android/android-launchericon-512-512.png",
       "sizes": "512x512"
     },
     {
-      "src": "img/favicon/app_images/android/android-launchericon-192-192.png",
+      "src": "static/img/favicon/app_images/android/android-launchericon-192-192.png",
       "sizes": "192x192"
     },
     {
-      "src": "img/favicon/app_images/android/android-launchericon-144-144.png",
+      "src": "static/img/favicon/app_images/android/android-launchericon-144-144.png",
       "sizes": "144x144"
     },
     {
-      "src": "img/favicon/app_images/android/android-launchericon-96-96.png",
+      "src": "static/img/favicon/app_images/android/android-launchericon-96-96.png",
       "sizes": "96x96"
     },
     {
-      "src": "img/favicon/app_images/android/android-launchericon-72-72.png",
+      "src": "static/img/favicon/app_images/android/android-launchericon-72-72.png",
       "sizes": "72x72"
     },
     {
-      "src": "img/favicon/app_images/android/android-launchericon-48-48.png",
+      "src": "static/img/favicon/app_images/android/android-launchericon-48-48.png",
       "sizes": "48x48"
     },
     {
-      "src": "img/favicon/app_images/chrome/chrome-extensionmanagementpage-48-48.png",
+      "src": "static/img/favicon/app_images/chrome/chrome-extensionmanagementpage-48-48.png",
       "sizes": "48x48"
     },
     {
-      "src": "img/favicon/app_images/chrome/chrome-favicon-16-16.png",
+      "src": "static/img/favicon/app_images/chrome/chrome-favicon-16-16.png",
       "sizes": "16x16"
     },
     {
-      "src": "img/favicon/app_images/chrome/chrome-installprocess-128-128.png",
+      "src": "static/img/favicon/app_images/chrome/chrome-installprocess-128-128.png",
       "sizes": "128x128"
     },
     {
-      "src": "img/favicon/app_images/firefox/firefox-marketplace-512-512.png",
+      "src": "static/img/favicon/app_images/firefox/firefox-marketplace-512-512.png",
       "sizes": "512x512"
     },
     {
-      "src": "img/favicon/app_images/firefox/firefox-marketplace-128-128.png",
+      "src": "static/img/favicon/app_images/firefox/firefox-marketplace-128-128.png",
       "sizes": "128x128"
     },
     {
-      "src": "img/favicon/app_images/firefox/firefox-general-256-256.png",
+      "src": "static/img/favicon/app_images/firefox/firefox-general-256-256.png",
       "sizes": "256x256"
     },
     {
-      "src": "img/favicon/app_images/firefox/firefox-general-128-128.png",
+      "src": "static/img/favicon/app_images/firefox/firefox-general-128-128.png",
       "sizes": "128x128"
     },
     {
-      "src": "img/favicon/app_images/firefox/firefox-general-90-90.png",
+      "src": "static/img/favicon/app_images/firefox/firefox-general-90-90.png",
       "sizes": "90x90"
     },
     {
-      "src": "img/favicon/app_images/firefox/firefox-general-64-64.png",
+      "src": "static/img/favicon/app_images/firefox/firefox-general-64-64.png",
       "sizes": "64x64"
     },
     {
-      "src": "img/favicon/app_images/firefox/firefox-general-48-48.png",
+      "src": "static/img/favicon/app_images/firefox/firefox-general-48-48.png",
       "sizes": "48x48"
     },
     {
-      "src": "img/favicon/app_images/firefox/firefox-general-32-32.png",
+      "src": "static/img/favicon/app_images/firefox/firefox-general-32-32.png",
       "sizes": "32x32"
     },
     {
-      "src": "img/favicon/app_images/firefox/firefox-general-16-16.png",
+      "src": "static/img/favicon/app_images/firefox/firefox-general-16-16.png",
       "sizes": "16x16"
     }
   ],
