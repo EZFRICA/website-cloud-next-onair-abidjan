@@ -7,7 +7,7 @@
   "dir": "auto",
   "related_applications": [{
     "platform": "webapp",
-    "url": "https://cloud-next-onair-abidjan.web.app/manifest.webmanifest"
+    "url": "https://cloudnextonairabidjan-xoqsda64ya-uc.a.run.app/static/manifest.webmanifest"
   }],
   "prefer_related_applications": true,
   "categories": [
@@ -295,11 +295,11 @@
       "sizes": "16x16"
     }
   ],
-  "start_url": "/?source=pwa",
+  "start_url": "./index.html?source=pwa",
   "theme_color": "#4285f4",
   "background_color": "#dbdad9",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/"
+  "scope": "./index.html"
   }
   
