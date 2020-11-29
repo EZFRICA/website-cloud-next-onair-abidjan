@@ -300,6 +300,6 @@
   "background_color": "#dbdad9",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "./index.html"
+  "scope": "./"
   }
   
