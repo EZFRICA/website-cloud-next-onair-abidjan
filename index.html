@@ -4,7 +4,7 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="manifest" href="static/manifest.webmanifest">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="msapplication-TileColor" content="#dbdad9">
     <meta name="msapplication-TileImage" content="static/img/favicon/app_images/android/android-launchericon-144-144.png">
@@ -654,7 +654,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/firebase-messaging-sw.js')
+                navigator.serviceWorker.register('/static/firebase-messaging-sw.js')
                     .then(registration => {
                         console.log(`Service Worker registered! Scope: ${registration.scope}`);
                     })

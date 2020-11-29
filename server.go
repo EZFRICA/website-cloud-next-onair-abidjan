@@ -57,8 +57,8 @@ func main() {
 	fs := http.FileServer(neuteredFileSystem{http.Dir(staticAssetsDir)})
 	mux.Handle("/", fs)*/
 	fs := http.FileServer(http.Dir("static/"))
-    http.Handle("/static/", http.StripPrefix("/static/", fs))
+	http.Handle("/static/", http.StripPrefix("/static/", fs))
 
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":8280", nil)
 
 }
