@@ -295,11 +295,11 @@
       "sizes": "16x16"
     }
   ],
-  "start_url": "./index.html?source=pwa",
+  "start_url": "../index.html?source=pwa",
   "theme_color": "#4285f4",
   "background_color": "#dbdad9",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "./"
+  "scope": "../"
   }
   
