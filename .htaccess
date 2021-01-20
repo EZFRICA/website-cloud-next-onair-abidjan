@@ -1,0 +1,11 @@
+# Redirect non-existing pages to home
+Options +SymLinksIfOwnerMatch 
+RewriteEngine On 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+
+
+Redirect 301 / https://cloud-next-onair-abidjan.web.app/
+Redirect 302 / https://cloud-next-onair-abidjan.web.app/
+ErrorDocument 404 https://cloud-next-onair-abidjan.web.app/404.html
