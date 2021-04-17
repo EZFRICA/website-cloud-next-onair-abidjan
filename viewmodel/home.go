@@ -3,11 +3,29 @@ package viewmodel
 type Home struct {
 	Title    string
 	Sponsors []Sponsor
+	Speakers []Speaker
+	Counters []Counter
 }
 
 type Sponsor struct {
 	ImageURL string
 	Alt      string
+}
+
+type Speaker struct {
+	Duration   int
+	Name       string
+	Poste      string
+	Entreprise string
+	ImageURL   string
+	Arialabel  string
+	Linkhref   string
+}
+
+type Counter struct {
+	DurationCount int
+	DataCount     int
+	NameCount     string
 }
 
 func NewHome() Home {
@@ -64,6 +82,63 @@ func NewHome() Home {
 		ImageURL: "static/img/partenaires/GDG_Logo.png",
 		Alt:      "GDG Logo",
 	}
+
+	speakerun := Speaker{
+		Duration:   1000,
+		Name:       "Steren",
+		Poste:      "Product Manager",
+		Entreprise: "Google",
+		ImageURL:   "static/img/speakers/Steren.jpg",
+		Arialabel:  "Twitter Mr. Steren",
+		Linkhref:   "https://twitter.com/steren",
+	}
+
+	speakerdeux := Speaker{
+		Duration:   2000,
+		Name:       "Julien Landuré",
+		Poste:      "CTO &amp; GDE",
+		Entreprise: "Zenika",
+		ImageURL:   "static/img/speakers/Julien.jpg",
+		Arialabel:  "Twitter M. Julien Landuré",
+		Linkhref:   "https://twitter.com/jlandure",
+	}
+
+	speakertrois := Speaker{
+		Duration:   3000,
+		Name:       "Guillaume Blaquiere",
+		Poste:      "Cloud Architect",
+		Entreprise: "SFEIR",
+		ImageURL:   "static/img/speakers/Guillaume.png",
+		Arialabel:  "Twitter M. Guillaume Blaquiere",
+		Linkhref:   "https://twitter.com/gblaquiere",
+	}
+
+	count_1 := Counter{
+		DurationCount: 1000,
+		DataCount:     6,
+		NameCount:     " Speakers",
+	}
+
+	count_2 := Counter{
+		DurationCount: 2000,
+		DataCount:     8,
+		NameCount:     " Sessions",
+	}
+
+	count_3 := Counter{
+		DurationCount: 3000,
+		DataCount:     150,
+		NameCount:     " Participants",
+	}
+
+	count_4 := Counter{
+		DurationCount: 3000,
+		DataCount:     3,
+		NameCount:     " Labs",
+	}
+
 	result.Sponsors = []Sponsor{gdgbassamSponsor, wtmSponsor, gdgcloudnantesSponsor, tfugSponsor, gdgnantesSponsor, dscagitelSponsor, dscesaticSponsor, dscuvciSponsor, cloudSponsor, gdgSponsor}
+	result.Speakers = []Speaker{speakerun, speakerdeux, speakertrois}
+	result.Counters = []Counter{count_1, count_2, count_3, count_4}
 	return result
 }

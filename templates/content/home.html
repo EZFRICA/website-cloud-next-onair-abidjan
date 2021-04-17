@@ -97,57 +97,25 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-6 col-lg-4 mb-30" data-aos="zoom-in-up" data-aos-duration="1000">
+                {{range .Speakers}}
+                <div class="col-md-6 col-lg-4 mb-30" data-aos="zoom-in-up" data-aos-duration="{{.Duration}}">
                     <div class="team-item">
                         <div class="mb-30 position-relative d-flex align-items-center">
                             <span class="socials d-inline-block">
-                                <a href="https://twitter.com/steren" target="_blank" rel="noopener" aria-label="Twitter Mr. Steren" class="zmdi zmdi-twitter"></a>
+                                <a href="{{.Linkhref}}" target="_blank" rel="noopener" aria-label="{{.Arialabel}}" class="zmdi zmdi-twitter"></a>
                             </span>
                             <span class="img-holder d-inline-block">
-                                <img src="static/img/speakers/Steren.jpg" loading="lazy" width="200" height="200" alt="Team">
+                                <img src="{{.ImageURL}}" loading="lazy" width="200" height="200" alt="Team">
                             </span>
                         </div>
                         <div class="team-content">
-                            <h4 class="mb-2 speaker-name">Steren</h4>
-                            <p class="text-uppercase mb-0">Product Manager</p>
-                            <p class="text-uppercase entreprise">Google</p>
+                            <h4 class="mb-2 speaker-name">{{.Name}}</h4>
+                            <p class="text-uppercase mb-0">{{.Poste}}</p>
+                            <p class="text-uppercase entreprise">{{.Entreprise}}</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-30" data-aos="zoom-in-up" data-aos-duration="2000">
-                    <div class="team-item">
-                        <div class="mb-30 position-relative d-flex align-items-center">
-                            <span class="socials d-inline-block">
-                                <a href="https://twitter.com/jlandure" target="_blank" rel="noopener" aria-label="Twitter M. Julien Landuré" class="zmdi zmdi-twitter"></a>
-                            </span>
-                            <span class="img-holder d-inline-block">
-                                <img src="static/img/speakers/Julien.jpg" loading="lazy" width="200" height="200" alt="Team">
-                            </span>
-                        </div>
-                        <div class="team-content">
-                            <h4 class="mb-2 speaker-name">Julien Landuré</h4>
-                            <p class="text-uppercase mb-0">CTO &amp; GDE</p>
-                            <p class="text-uppercase entreprise">Zenika</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-30" data-aos="zoom-in-up" data-aos-duration="3000">
-                    <div class="team-item">
-                        <div class="mb-30 position-relative d-flex align-items-center">
-                            <span class="socials d-inline-block">
-                                <a href="https://twitter.com/gblaquiere" target="_blank" rel="noopener" aria-label="Twitter M. Armel Yara" class="zmdi zmdi-twitter"></a>
-                            </span>
-                            <span class="img-holder d-inline-block">
-                                <img src="static/img/speakers/Guillaume.png" loading="lazy" width="200" height="200" alt="Team">
-                            </span>
-                        </div>
-                        <div class="team-content">
-                            <h4 class="mb-2 speaker-name">Guillaume Blaquiere</h4>
-                            <p class="text-uppercase mb-0">Cloud Architect</p>
-                            <p class="text-uppercase entreprise">Veolia</p>
-                        </div>
-                    </div>
-                </div>
+                {{end}}
             </div>
         </div>
     </section>
@@ -301,55 +269,23 @@
                 </div>
             </div>
             <div class="row align-items-center justify-content-center">
-                <div class="col-lg-3 col-md-6 mb-30" data-aos="zoom-in-up" data-aos-duration="1000">
+                {{range .Counters}}
+                <div class="col-lg-3 col-md-6 mb-30" data-aos="zoom-in-up" data-aos-duration="{{.DurationCount}}">
                     <div class="counter-box d-flex d-lg-block">
                         <div class="icon-box mb-3">
                             <i class="zmdi zmdi-mic zmdi-hc-fw"></i>
                         </div>
                         <div class="ml-5 ml-lg-0 pt-1 pt-lg-0">
-                            <h3 class="mb-2 count" data-count="6">6</h3>
-                            <p class="c-black text-capitalize"> Speakers</p>
+                            <h3 class="mb-2 count" data-count="{{.DataCount}}">{{.DataCount}}</h3>
+                            <p class="c-black text-capitalize">{{.NameCount}}</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-30" data-aos="zoom-in-up" data-aos-duration="2000">
-                    <div class="counter-box d-flex d-lg-block">
-                        <div class="icon-box mb-3">
-                            <i class="zmdi zmdi-coffee zmdi-hc-fw"></i>
-                        </div>
-                        <div class="ml-5 ml-lg-0 pt-1 pt-lg-0">
-                            <h3 class="mb-2 count" data-count="8">8</h3>
-                            <p class="c-black text-capitalize"> Sessions</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-30" data-aos="zoom-in-up" data-aos-duration="3000">
-                    <div class="counter-box d-flex d-lg-block">
-                        <div class="icon-box mb-3">
-                            <i class="zmdi zmdi-accounts-alt zmdi-hc-fw"></i>
-                        </div>
-                        <div class="ml-5 ml-lg-0 pt-1 pt-lg-0">
-                            <h3 class="mb-2 count" data-count="150">150</h3>
-                            <p class="c-black text-capitalize"> Participants</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-30" data-aos="zoom-in-up" data-aos-duration="3000">
-                    <div class="counter-box d-flex d-lg-block">
-                        <div class="icon-box mb-3">
-                            <i class="zmdi zmdi-laptop zmdi-hc-fw"></i>
-                        </div>
-                        <div class="ml-5 ml-lg-0 pt-1 pt-lg-0">
-                            <h3 class="mb-2 count" data-count="3">3</h3>
-                            <p class="c-black text-capitalize"> Labs</p>
-                        </div>
-                    </div>
-                </div>
+                {{end}}
             </div>
         </div>
     </section>
     <!-- END Section Counter -->
-
 
     <!-- START Section Testimonials -->
     <section class="sp-100 overlay-bg bg-w testimonial-section" id="organisateurs">
