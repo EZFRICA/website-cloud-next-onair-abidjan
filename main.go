@@ -13,7 +13,7 @@ import (
 func main() {
 	templates := populateTemplates()
 	controller.Debut(templates)
-	http.ListenAndServe(":8000", &middleware.TimeoutMiddleware{new(middleware.GzipMiddleware)})
+	http.ListenAndServe(":8080", &middleware.TimeoutMiddleware{new(middleware.GzipMiddleware)})
 }
 
 func populateTemplates() map[string]*template.Template {
