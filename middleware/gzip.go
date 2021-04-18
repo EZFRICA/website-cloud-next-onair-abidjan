@@ -16,6 +16,8 @@ func (gm *GzipMiddleware) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		gm.Next = http.DefaultServeMux
 	}
 
+	w.Header().Set("Cache-Control", "max-age=2592000, public, must-revalidate, proxy-revalidate")
+	w.Header().Set("Expires", "Thu, 23 Dec 2021 20:00:00 GMT")
 	encodings := r.Header.Get("Accept-Encoding")
 	if !strings.Contains(encodings, "gzip") {
 		gm.Next.ServeHTTP(w, r)
@@ -24,22 +26,11 @@ func (gm *GzipMiddleware) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	w.Header().Add("Content-Encoding", "gzip")
 	gzipWriter := gzip.NewWriter(w)
 	defer gzipWriter.Close()
-	var rw http.ResponseWriter
-	if pusher, ok := w.(http.Pusher); ok {
-		rw = gzipPusherResponseWriter{
-			gzipResponseWriter: gzipResponseWriter{
-				ResponseWriter: w,
-				Writer:         gzipWriter,
-			},
-			Pusher: pusher,
-		}
-	} else {
-		rw = gzipResponseWriter{
-			ResponseWriter: w,
-			Writer:         gzipWriter,
-		}
+	grw := gzipResponseWriter{
+		ResponseWriter: w,
+		Writer:         gzipWriter,
 	}
-	gm.Next.ServeHTTP(rw, r)
+	gm.Next.ServeHTTP(grw, r)
 }
 
 type gzipResponseWriter struct {
@@ -47,15 +38,6 @@ type gzipResponseWriter struct {
 	io.Writer
 }
 
-type gzipPusherResponseWriter struct {
-	gzipResponseWriter
-	http.Pusher
-}
-
 func (grw gzipResponseWriter) Write(data []byte) (int, error) {
-	if "" == grw.Header().Get("Content-Type") {
-		// If no content type, apply sniffing algorithm to un-gzipped body.
-		grw.Header().Set("Content-Type", http.DetectContentType(data))
-    }
 	return grw.Writer.Write(data)
 }

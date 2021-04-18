@@ -17,14 +17,8 @@ func (h home) registerRoutes() {
 }
 
 func (h home) handleHome(w http.ResponseWriter, r *http.Request) {
-	if pusher, ok := w.(http.Pusher); ok {
-		pusher.Push("static/css/main.min.css", &http.PushOptions{
-			Header: http.Header{"Content-Type": []string{"text/css"}},
-		})
-	}
 
 	vm := viewmodel.NewHome()
 	w.Header().Add("Content-Type", "text/html; charset=utf-8; X-Content-Type-Options=nosniff")
-	w.Header().Add("Cache-Control", "max-age:2592000, static, must-revalidate, proxy-revalidate")
 	h.homeTemplate.Execute(w, vm)
 }
