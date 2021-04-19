@@ -16,7 +16,7 @@ func (tm TimeoutMiddleware) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	}
 
 	ctx := r.Context()
-	ctx, _ = context.WithTimeout(ctx, 5*time.Second)
+	ctx, _ = context.WithTimeout(ctx, 3*time.Second)
 	r.WithContext(ctx)
 	ch := make(chan struct{})
 	go func() {

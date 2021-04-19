@@ -277,22 +277,6 @@ if (workbox) {
     "revision": "f0472f2237f87aabc41e6a16f049ff58"
   },
   {
-    "url": "static/vendor/material-design-iconic-font/css/material-design-iconic-font.css",
-    "revision": "088d3afe805103afe42059d7673433bb"
-  },
-  {
-    "url": "static/vendor/material-design-iconic-font/css/material-design-iconic-font.min.css",
-    "revision": "e9365fe85b7e4db79a87015e52c3db6c"
-  },
-  {
-    "url": "static/vendor/material-design-iconic-font/css/material-design-iconic.optimal.min.css",
-    "revision": "06303d39a3cf7682d669337e4fc06f7b"
-  },
-  {
-    "url": "static/vendor/material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg",
-    "revision": "381f7754080ed2299a7c66a2504dff02"
-  },
-  {
     "url": "static/vendor/slick/fonts/slick.svg",
     "revision": "f97e3bbf73254b0112091d0192f17aec"
   },
